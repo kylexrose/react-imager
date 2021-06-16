@@ -1,0 +1,39 @@
+.body{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+#header{
+    font-size: 24pt;
+    background-color: grey;
+    width: 100vw;
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding: auto;
+}
+
+button{
+    margin: 25px;
+}
+
+#controlBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.thumbnails{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1 1 1;
+    justify-items: center;
+}
